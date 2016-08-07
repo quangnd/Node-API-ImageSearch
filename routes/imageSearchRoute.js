@@ -6,7 +6,8 @@ var searchApi = require('../api/searchApi');
 var commonFuncs = require('../utilities/commons');
 
 var client = searchApi(process.env.GOOGLE_CX, process.env.GOOGLE_API_KEY);
-var dbUrl = 'mongodb://localhost:27017/imageSearchAPI';
+//var dbUrl = 'mongodb://localhost:27017/imageSearchAPI';
+var dbUrl = process.env.MONGOLAB_URI_IMAGESEARCH;
 
 var router = function () {
     imageSearchRouter.route('/')
