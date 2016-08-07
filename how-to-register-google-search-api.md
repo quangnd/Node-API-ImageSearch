@@ -1,5 +1,3 @@
-#(This document based on document from google-images module at https://github.com/vdemedes/google-images. I edited more info to clear up!)#
-
 # Set up Google Custom Search Engine
 
 Google deprecated their public Google Images API, so to search for images you need to sign up for Google Custom Search Engine.
@@ -27,9 +25,11 @@ In your search engine settings, enable "Image search":
 
 To wrap information, all you need to create a Google custom search engine includes:
 
-    1. **API keys**, for example: AIzaScAGl5i8xHy1WC7t2baDcEDuxrUd17kSrtc
-    2. **CX**, for example: 002703922123499277522:genaaaw4nz8
-    3. **Query parameter**, for example: ?q=cat
-    4. **An API, for example**: (this link is not really working!!!)
+    1. API keys - for example: AIzaScAGl5i8xHy1WC7t2baDcEDuxrUd17kSrtc
+    2. CX - for example: 002703922123499277522:genaaaw4nz8
+    3. Query parameter - for example: ?q=cat
+    4. An API - for example: (this link is not really working!!!)
    https://www.googleapis.com/customsearch/v1?q=cats&cx=002703922123499277522:genaaaw4nz8&searchType=image&key=AIzaScAGl5i8xHy1WC7t2baDcEDuxrUd17kSrtc
     (searchType parameter is optional!)
+    
+*(This document based on document from google-images module at https://github.com/vdemedes/google-images. I edited more info to clear up!)*
